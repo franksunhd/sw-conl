@@ -1,0 +1,408 @@
+html, body, #app {
+    width: 100%;
+    height: 100%;
+}
+
+.fontSize14 {
+    font-size: 14px !important;
+}
+
+.font12 {
+    font-size: 12px;
+}
+
+.font13 {
+    font-size: 13px;
+}
+
+.width100 {
+    width: 100px !important;
+}
+
+.width150 {
+    width: 150px !important;
+}
+
+.width200 {
+    width: 200px !important;
+}
+
+.widthAll {
+    width: 100% !important;
+}
+
+.widthHalf {
+    width: 49%;
+}
+
+.widthFixed {
+    width: 250px !important;
+}
+
+.tc {
+    text-align: center;
+}
+
+.fw {
+    font-weight: bold;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.marginTop5 {
+    margin-top: 5px !important;
+}
+
+.marginTop10 {
+    margin-top: 10px !important;
+}
+
+.marginTop20 {
+    margin-top: 20px !important;
+}
+
+.marginRight0 {
+    margin-right: 0 !important;
+}
+
+.marRight10 {
+    margin-right: 10px;
+}
+
+.marRight20 {
+    margin-right: 20px;
+}
+
+.marBottom0 {
+    margin-bottom: 0 !important;
+}
+
+.marBottom10 {
+    margin-bottom: 10px !important;
+}
+
+.marBottom20 {
+    margin-bottom: 20px;
+}
+
+.marBottom50 {
+    margin-bottom: 50px;
+}
+
+.marginLR10 {
+    margin: 0 10px;
+}
+
+.paddingLeft20 {
+    padding-left: 20px;
+}
+
+.paddingBottom20 {
+    padding-bottom: 20px;
+}
+
+.formInline {
+    display: flex;
+    flex-direction: column;
+}
+
+.formInline .el-form-item {
+    flex: 1;
+    display: flex;
+}
+
+.el-dialog__body,
+.el-dialog__footer {
+    padding: 10px 20px;
+}
+
+.el-button + .el-button {
+    margin: 0;
+}
+
+.text.el-button {
+    margin: 0 20px;
+}
+
+/*表单校验必填项红星*/
+.star::before,
+.star > label.el-form-item__label::before {
+    content: '*';
+    margin-right: 4px;
+    color: #fb6041;
+}
+
+/*必填项不能为空*/
+.isNotNull {
+    line-height: 1;
+    font-size: 12px;
+    margin-top: 4px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    color: #fb6041;
+}
+
+.headerTitle {
+    font-size: 24px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+p.formTitle {
+    font-size: 14px;
+    margin-bottom: 22px;
+}
+
+.formTitle_mv {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.displayInlineBlock {
+    display: inline-block;
+}
+
+.displayFlexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.displayFlexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex_1 {
+    flex: 1;
+}
+
+/*上传封面图*/
+.avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.avatar-uploader .el-upload:hover {
+    border-color: #3777EC;
+}
+
+.avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 178px;
+    height: 178px;
+    line-height: 178px;
+    text-align: center;
+}
+
+.avatar {
+    width: 178px;
+    height: 178px;
+    display: block;
+}
+
+.redColor,
+.redColor:focus,
+.redColor:hover {
+    color: #fb6041 !important;
+}
+
+.greenColor,
+.greenColor:focus,
+.greenColor:hover {
+    color: #67C23A !important;
+}
+
+.blueColor,
+.blueColor:focus,
+.blueColor:hover {
+    color: #3777EC !important;
+    font-weight: bold;
+}
+
+.warningColor,
+.warningColor:focus,
+.warningColor:hover {
+    color: #E6A23C !important;
+    font-weight: bold;
+}
+
+.grayColor {
+    color: #aaa !important;
+}
+
+.lineHeight {
+    line-height: 1;
+}
+
+/*用户详情*/
+.el-row {
+    margin: 0 !important;
+}
+
+.isNotNullText {
+    font-size: 12px;
+    color: #fb6041;
+}
+
+/*上传图片*/
+.photoCard .el-upload.el-upload--picture-card,
+.uploadWeb .el-upload.el-upload--text {
+    width: 252px !important;
+    height: 152px !important;
+    line-height: 150px !important;
+    font-size: 0;
+    border: 1px dashed #3777EC;
+    border-radius: 2px;
+    color: #3777EC;
+    position: relative;
+}
+
+.activityUpload .el-upload.el-upload--text i,
+.varietyUpload .el-upload.el-upload--text i,
+.musicUploader .el-upload.el-upload--text i,
+.uploadWeb .el-upload.el-upload--text i {
+    font-size: 30px;
+}
+
+.musicUploader .el-upload.el-upload--text {
+    width: 152px;
+    height: 152px;
+    line-height: 150px;
+    font-size: 0;
+    border: 1px dashed #3777EC;
+    border-radius: 2px;
+    color: #3777EC;
+    position: relative;
+}
+
+.activityUpload .el-upload.el-upload--text {
+    width: 252px;
+    height: 282px;
+    line-height: 280px;
+    font-size: 0;
+    border: 1px dashed #3777EC;
+    border-radius: 2px;
+    color: #3777EC;
+    position: relative;
+}
+
+.varietyUpload .el-upload.el-upload--text {
+    width: 202px;
+    height: 262px;
+    line-height: 260px;
+    font-size: 0;
+    border: 1px dashed #3777EC;
+    border-radius: 2px;
+    color: #3777EC;
+    position: relative;
+}
+
+.swiper_avatar {
+    width: 250px;
+    height: 150px;
+}
+
+.music_avatar {
+    width: 150px;
+    height: 150px;
+}
+
+.mv_avatar {
+    width: 250px;
+    height: 150px !important;
+}
+
+.activity_avatar {
+    width: 250px;
+    height: 280px;
+}
+
+.activity_progress {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.music_avatar_Img img {
+    height: 150px;
+    margin: 0 auto;
+}
+
+.variety_avatar {
+    width: 200px;
+    height: 260px;
+}
+
+.visibilityHidden {
+    visibility: hidden;
+}
+
+.message_img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.xl-chrome-ext-bar {
+    display: none;
+}
+
+.photosBox_VIP.el-form-item {
+    white-space: normal !important;
+}
+
+.el-collapse-item__header {
+    padding-left: 20px;
+}
+
+.vip_activity .el-collapse-item__header,
+.el-collapse-item__header.is-active {
+    background-color: #ddd;
+}
+
+.el-collapse-item__content {
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.headerLine {
+    font-size: 18px;
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.advocacy_Box .el-upload__tip {
+    line-height: 20px;
+}
+
+.line_bg {
+    border-bottom: 1px solid #DCDFE6;
+}
+
+/*富文本编辑框图标大小*/
+.editor span.w-e-item {
+    font-size: 16px;
+}
+
+.editor span.w-e-item > img {
+    width: 20px;
+}
+
+/*英文单词不换行*/
+.wordBreak {
+    word-break: break-all;
+}
+
+.fixedMvBg {
+    background-image: url("../../assets/img/mvPath.jpg");
+}
